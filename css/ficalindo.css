@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    font-family: 'Poppins', sans-serif;    
+}
+
+/* Organizando os itens do menu */
+#navbar-items .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+/* Ajustando os links */
+#navbar-items a {
+    color: black;
+    font-size: 1em;
+    margin-left: 2em;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+#container-banner {
+    margin-top: 6em;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.btn-maiseu {
+    background: rgb(121, 16, 16);
+}
+
+.navbar-brand i {
+    font-size: 2em;
+}
+
+i {
+    font-size: 3em;  
+}
+
+#container-carousel {
+    margin-top: 1em;
+}
+
+.bg-crud {
+    background: rgb(255, 236, 236);
+}
+
+.bi {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
